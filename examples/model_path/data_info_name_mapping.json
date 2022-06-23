@@ -1,0 +1,36 @@
+{
+    "dense_col":{
+        "review_emb1":0,
+        "review_emb2":1,
+        "review_emb3":2,
+        "review_emb4":3,
+        "review_emb5":4,
+        "review_emb6":5,
+        "review_emb7":6,
+        "review_emb8":7,
+        "review_emb9":8,
+        "review_emb10":9,
+        "review_emb11":10,
+        "review_emb12":11,
+        "vader_sentiment_score":12
+    },
+    "user_dense_col":{
+        "review_emb1":0,
+        "review_emb2":1,
+        "review_emb3":2,
+        "review_emb4":3,
+        "review_emb5":4,
+        "review_emb6":5,
+        "review_emb7":6,
+        "review_emb8":7,
+        "review_emb9":8,
+        "review_emb10":9,
+        "review_emb11":10,
+        "review_emb12":11,
+        "vader_sentiment_score":12
+    },
+    "user_sparse_col":{},
+    "item_sparse_col":{},
+    "item_dense_col":{},
+    "sparse_col":{}
+}
