@@ -1,4 +1,4 @@
-# LibRecommender
+# Hybrid Recommendation system using product reviews
 
 ## Overview
 
