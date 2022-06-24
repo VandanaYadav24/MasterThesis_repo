@@ -3,8 +3,13 @@
 Use hybrid recommendation algorithm DeepFM from LibRec open-source implementations based on two types of tasks of recommendation system (rating and ranking prediction tasks) using information extracted from textual product reviews such as sentence embedding vectors, sentiment scores and presence of negations in the reviews.
 
 Datasets:
-DataFiniti Hotel Reviews
-Amazon Digital Music and Video Games
+
+DataFiniti Hotel Reviews: 
+Description: Hotel Reviews dataset from Datafinti's Business dataset
+URL: https://data.world/datafiniti/hotel-reviews
+
+Amazon Digital Music and Video Games: 
+URL: http://jmcauley.ucsd.edu/data/amazon/index_2014.html/
 
 ## Overview
 
