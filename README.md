@@ -1,6 +1,6 @@
 # Hybrid Recommendation system using product reviews
 
-Use hybrid recommendation algorithm DeepFM from LibRec open-source implementations based on two types of tasks of recommendation system (rating and ranking prediction tasks) using information extracted from textual product reviews such as sentence embedding vectors, sentiment scores and presence of negations in the reviews.
+Proposed a hybrid recommendation algorithm  called DeepFM based on two types of tasks of recommendation system (rating and ranking prediction tasks) using information extracted from textual product reviews such as sentence embedding vectors, sentiment scores and presence of negations in the reviews.
 
 Datasets:
 
