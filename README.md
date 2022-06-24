@@ -22,7 +22,7 @@ DeepFM: Used as a recommendation algorithm. <br />
 
 
 
-### References:
+## References:
 LibRecommender is an easy-to-use recommender system focused on end-to-end recommendation is utilised for DeepFM model. <br />
 GitHub URL: https://github.com/massquantity/LibRecommender/tree/master/examples
 
