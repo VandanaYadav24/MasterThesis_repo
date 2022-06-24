@@ -14,11 +14,15 @@ URL: http://jmcauley.ucsd.edu/data/amazon/index_2014.html/
 
 
 Methods/models used: <br />
-BERT: To extract contextual sentence embedding. <br />
-VADER: To extract sentiment scores and negations. <br />
+BERT: To extract contextual sentence embedding of the product reviews. <br />
+VADER: To extract sentiment scores and negations of the product reviews. <br />
 DeepFM: Used as a recommendation algorithm. <br />
 
-References:
+
+
+
+
+### References:
 LibRecommender is an easy-to-use recommender system focused on end-to-end recommendation is utilised for DeepFM model. <br />
 GitHub URL: https://github.com/massquantity/LibRecommender/tree/master/examples
 
