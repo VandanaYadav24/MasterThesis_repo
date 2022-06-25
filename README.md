@@ -14,6 +14,20 @@ Description: From Amazon product reviews dataset. <br />
 URL: http://jmcauley.ucsd.edu/data/amazon/index_2014.html/
 
 
+|**user id** | **item id**|**reviews**|**sentiment score**|**no. of negations** | **negation label**|
+|:------: |:-------:|:--------------:|:-------------:|:-----------------: |:--------:|
+|Name of the attribute|Attribute type|Values that the type can take|Description of the attribute|Uniquenes, default...| keys and foreign keys|
+|username|String|vandanayadav|Username|Nullable: No, Unique: Yes, Default: No|PRIMARY_KEY| 
+|pwd|String|NguyenYadav@123|Password|Nullable: No, Unique: No, Default: No|| 
+|fname|String|Vandana|First name|Nullable: Yes, Unique: No, Default: No|| 
+|lname|String|Nguyen|Last name|Nullable: Yes, Unique: No, Default: No|| 
+|phone|String|+3584441257|Phone number|Nullable: Yes, Unique: No, Default: No|| 
+|addr|String|Yliopistokatu 20|Address|Nullable: Yes, Unique: No, Default: No||
+|email|String|van.nguyen@gmail.com|Email address|Nullable: No, Unique: Yes, Default: No|| 
+
+
+
+
 #### Methods/models used: <br />
 BERT: To extract contextual sentence embedding of the product reviews. <br />
 VADER: To extract sentiment scores and negations of the product reviews. <br />
