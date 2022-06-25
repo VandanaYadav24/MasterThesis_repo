@@ -37,7 +37,7 @@ Sample data of Video Games:
 |72|7|3|Great protection and grip for a while, but like a latex glove, it stretches out after a little time.  For the price, a great deal.|
 
 
-Algorithm: 
+### Algorithm: 
 
 Step 1: Data cleaning and pre-processing. <br/>
 Step 2: Extract features from product reviews <br/>
@@ -50,12 +50,11 @@ Step 5: Modeling based on prediction task. <br/>
 Step 6: Evaluate the model on test set using metrics according to prediction task. 
 
 
-Prediction tasks: <br/>
+### Prediction tasks: <br/>
 1. Predicting desired ratings. (rating prediction task) <br/>
 2. Providing recommendations based on predicted rank scores. (ranking preiction task) <br/>
 
-Predictor combinations used along with ratings:
-Sample data of Video Games: 
+### Predictor combinations used along with ratings: 
 |**Predictor conbination name** | **aggregated features**|
 |:------------: |:----------------------:|
 |P1|no additional feature used.|
@@ -68,12 +67,11 @@ Sample data of Video Games:
 & presence/absence of negation in product reviews|
 
 
-Metrics used:
+### Metrics used:
 |**Prediction task** | **Metrics used for the task**|
 |:------------: |:----------------------:|
 |Rating|RMSE and MAE
 |Ranking|precision@N, Recall@N, MAP@N, NDCG@N|
-
 
 
 #### Methods/models used: <br />
