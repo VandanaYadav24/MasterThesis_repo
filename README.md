@@ -14,9 +14,9 @@ Description: From Amazon product reviews dataset. <br />
 URL: http://jmcauley.ucsd.edu/data/amazon/index_2014.html/
 
 
-|**user id** | **item id**|**reviews**|**sentiment score**|**no. of negations** | **negation label**|
+|**user id** | **item id**|**label**|**reviews**|**sentiment score**|**no. of negations** | **negation label**|
 |:------: |:-------:|:--------------:|:-------------:|:-----------------: |:--------:|
-|Name of the attribute|Attribute type|Values that the type can take|Description of the attribute|Uniquenes, default...| keys and foreign keys|
+|80|14|2|Staff weren't helpful and no one tried to come and clean our room on several nights. Rooms were very small. Good location|0.2496|2|1|
 |username|String|vandanayadav|Username|Nullable: No, Unique: Yes, Default: No|PRIMARY_KEY| 
 |pwd|String|NguyenYadav@123|Password|Nullable: No, Unique: No, Default: No|| 
 |fname|String|Vandana|First name|Nullable: Yes, Unique: No, Default: No|| 
