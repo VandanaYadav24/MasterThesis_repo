@@ -23,7 +23,7 @@ URL: http://jmcauley.ucsd.edu/data/amazon/index_2014.html/
 
 Sample data of Digital Music: 
 |**user id** | **item id**|**label**|**reviews**|
-|:------------: |:------------:|:-------:|:-------------------:|
+|:------------: |:------------:|:-------:|:----------------------:|
 |47|3|5|I loved the Cars, soooo oringinal.the more time passes, the better they are.And this is the set of songs that launched the legendary band.|
 |590|284|1|Yet another classic that only became popular because their audience was stoned. Blaring, muddy, unmusical crud. |
 |1451|338|1|I cant find one good song on the whole thing, just ignore this record because it's wack.get me against the world though.|
@@ -32,10 +32,10 @@ Sample data of Digital Music:
 Sample data of Video Games: 
 |**user id** | **item id**|**label**|**reviews**|
 |:------------: |:------------:|:-------:|:-------------------:|
-|80|14|2|The worst experience in my life please never go close to tis hotel ughhhhh nasty rooms smells bad|
-|31|9|5|It was a great stay |
-|65|38|5|Good: Impeccable service. Beautiful hotel. Don't hesitate to stay here!|
-|29|617|2|Part of hotel was under renovation, it was also noisy. Not a good bargain.|
+|90|8|4|This allows me to preserve whatever precious space I have left on my console for other stuff. I may purchase another one in the near future.|
+|15|1|1|Crashed in Vista.  Codemasters told me they don't support it in Windows .  Couldn't get it to work even after looking on the Internet. |
+|40|3|5|My oldest grandson loves this game. I can remember playing it when I was young and it was good back then but even better now.|
+|72|7|3|Great protection and grip for a while, but like a latex glove, it stretches out after a little time.  For the price, a great deal.|
 
 
 
