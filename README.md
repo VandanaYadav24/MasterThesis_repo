@@ -1,7 +1,7 @@
 # Hybrid Recommendation system using product reviews
 
 ## Overview
-Proposed a hybrid recommendation algorithm  called DeepFM based on two types of tasks of recommendation system ((1) predicting desired ratings, and (2) preoviding recommendations based on rank scores) using information extracted from textual product reviews such as sentence embedding vectors, sentiment scores and presence of negations in the reviews.
+Proposed a hybrid recommendation algorithm  called DeepFM based on two types of tasks of recommendation system (1. predicting desired ratings, and 2. preoviding recommendations based on rank scores) using information extracted from textual product reviews such as sentence embedding vectors, sentiment scores and presence of negations in the reviews.
 
 #### Datasets used: 
 
