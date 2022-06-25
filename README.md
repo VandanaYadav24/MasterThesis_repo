@@ -7,7 +7,7 @@ Proposed a hybrid recommendation algorithm  called DeepFM based on two types of 
 
 #### Datafiniti Hotel Reviews: <br />
 Description: Hotel Reviews dataset from Datafinti's Business dataset. <br />
-URL: https://data.world/datafiniti/hotel-reviews <br/>
+Download url: https://data.world/datafiniti/hotel-reviews <br/>
 Sample data: 
 |**user id** | **item id**|**label**|**reviews**|
 |:------------: |:------------:|:-------:|:-------------------:|
@@ -18,7 +18,7 @@ Sample data:
 
 #### Amazon Digital Music and Video Games: <br />
 Description: From Amazon product reviews dataset. <br />
-URL: http://jmcauley.ucsd.edu/data/amazon/index_2014.html/
+Download url: http://jmcauley.ucsd.edu/data/amazon/index_2014.html/ <br/>
 Sample data of Digital Music: 
 |**user id** | **item id**|**label**|**reviews**|
 |:------------: |:------------:|:-------:|:----------------------:|
