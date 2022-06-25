@@ -14,10 +14,13 @@ Description: From Amazon product reviews dataset. <br />
 URL: http://jmcauley.ucsd.edu/data/amazon/index_2014.html/
 
 
-|**user id** | **item id**|**label**|**reviews**|**sentiment score**|**no. of negations** | **negation label**|
+|**user id** | **item id**|**label**|**reviews**|
 |:----------: |:----------:|:-------:|:-------------------:|:-------:|:------: |:-------:|
-|80|14|2|Staff weren't helpful and no one tried to come and clean our room on several nights. Rooms were very small. Good location|0.2496|2|1|
-|80|14|2|Staff weren't helpful and no one tried to come and clean our room on several nights. Rooms were very small. Good location|0.2496|2|1|
+|80|14|2|The worst experience in my life please never go close to tis hotel ughhhhh nasty rooms smells bad|
+|31|9|5|It was a great stay |
+|65|38|5|Good: Impeccable service. Beautiful hotel. Don't hesitate to stay here!|
+|29|617|5|Part of hotel was under renovation, it was also noisy. Not a good bargain.|
+
 
 
 
