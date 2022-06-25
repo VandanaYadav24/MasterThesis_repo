@@ -8,7 +8,7 @@ import swifter
 if __name__ == '__main__':
 
     df = pd.read_csv("G:/My Drive/Univ Of Oulu/masters_thesis/preprocess_dataset/"
-                     "datasets/preparation_of_datasets/Amazon_Video_Games/new_vader/Preprocessed_Amazon_Video_Games.csv")
+                     "datasets/Amazon_Video_Games/Preprocessed_Amazon_Video_Games.csv")
     print(df.head(4))
 
     def get_negations(review):
@@ -37,7 +37,7 @@ if __name__ == '__main__':
     df['vader_sentiment_score'] = list(map(get_sentiment, df['reviews']))
 
     df.to_csv("G:/My Drive/Univ Of Oulu/masters_thesis/preprocess_dataset/"
-              "datasets/preparation_of_datasets/Amazon_Video_Games/new_vader/Preprocessed_Amazon_Video_Games.csv",
+              "datasets/Amazon_Video_Games/Preprocessed_Amazon_Video_Games.csv",
               index=False)
 
     stop_time = time.perf_counter()

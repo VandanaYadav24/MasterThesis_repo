@@ -23,7 +23,7 @@ if __name__ == "__main__":
 
     # region No reviews
     data = pd.read_csv("G:/My Drive/Univ Of Oulu/masters_thesis/preprocess_dataset/"
-                       "datasets/preparation_of_datasets/Hotel/new_vader/hotel_bert_emb_pca16_senti.csv",
+                       "datasets/Datafiniti_Hotel_Reviews/bert_emb_pca16_senti.csv",
                        sep=",", header=0)
     train_data, eval_data = split_by_ratio(data, test_size=0.2)
 
@@ -54,7 +54,7 @@ if __name__ == "__main__":
 
     # region only with reviews
     data = pd.read_csv("G:/My Drive/Univ Of Oulu/masters_thesis/preprocess_dataset/"
-                       "datasets/preparation_of_datasets/Hotel/new_vader/hotel_bert_emb_pca16_senti.csv",
+                       "datasets/Datafiniti_Hotel_Reviews/bert_emb_pca16_senti.csv",
                        sep=",", header=0)
     train_data, eval_data = split_by_ratio(data, test_size=0.2)
 
@@ -91,7 +91,7 @@ if __name__ == "__main__":
     # region Sentiment score
     # region Only Sentiment score from Vader
     data = pd.read_csv("G:/My Drive/Univ Of Oulu/masters_thesis/preprocess_dataset/"
-                       "datasets/preparation_of_datasets/Hotel/new_vader/hotel_bert_emb_pca16_senti.csv",
+                       "datasets/Datafiniti_Hotel_Reviews/bert_emb_pca16_senti.csv",
                        sep=",", header=0)
     train_data, eval_data = split_by_ratio(data, test_size=0.2)
 
@@ -121,7 +121,7 @@ if __name__ == "__main__":
 
     # region reviews' embeddings + Sentiment score from Vader
     data = pd.read_csv("G:/My Drive/Univ Of Oulu/masters_thesis/preprocess_dataset/"
-                       "datasets/preparation_of_datasets/Hotel/new_vader/hotel_bert_emb_pca16_senti.csv",
+                       "datasets/Datafiniti_Hotel_Reviews/bert_emb_pca16_senti.csv",
                        sep=",", header=0)
     train_data, eval_data = split_by_ratio(data, test_size=0.2)
 
@@ -157,7 +157,7 @@ if __name__ == "__main__":
 
     # region reviews' embeddings + Sentiment score from Vader + Negation occurrence
     data = pd.read_csv("G:/My Drive/Univ Of Oulu/masters_thesis/preprocess_dataset/"
-                       "datasets/preparation_of_datasets/Hotel/new_vader/hotel_bert_emb_pca16_senti.csv",
+                       "datasets/Datafiniti_Hotel_Reviews/bert_emb_pca16_senti.csv",
                        sep=",", header=0)
     train_data, eval_data = split_by_ratio(data, test_size=0.2)
 
@@ -193,7 +193,7 @@ if __name__ == "__main__":
 
     # region reviews' embeddings + Negation occurrence
     data = pd.read_csv("G:/My Drive/Univ Of Oulu/masters_thesis/preprocess_dataset/"
-                       "datasets/preparation_of_datasets/Hotel/new_vader/hotel_bert_emb_pca16_senti.csv",
+                       "datasets/Datafiniti_Hotel_Reviews/bert_emb_pca16_senti.csv",
                        sep=",", header=0)
     train_data, eval_data = split_by_ratio(data, test_size=0.2)
 

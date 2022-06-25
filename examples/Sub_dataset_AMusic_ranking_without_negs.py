@@ -25,7 +25,7 @@ if __name__ == "__main__":
 
     # region No reviews
     data = pd.read_csv("G:/My Drive/Univ Of Oulu/masters_thesis/preprocess_dataset/"
-                       "datasets/preparation_of_datasets/Amazon_Music/new_vader/"
+                       "datasets/Amazon_Music/"
                        "Amazon_Music_without_negs.csv", sep=",", header=0)
     train_data, eval_data = split_by_ratio(data, test_size=0.2)
 
@@ -56,7 +56,7 @@ if __name__ == "__main__":
 
     # region Only reviews' embeddings
     data = pd.read_csv("G:/My Drive/Univ Of Oulu/masters_thesis/preprocess_dataset/"
-                       "datasets/preparation_of_datasets/Amazon_Music/new_vader/"
+                       "datasets/Amazon_Music/"
                        "Amazon_Music_without_negs.csv", sep=",", header=0)
     train_data, eval_data = split_by_ratio(data, test_size=0.2)
 
@@ -91,7 +91,7 @@ if __name__ == "__main__":
 
     # region Only Sentiment score from Vader
     data = pd.read_csv("G:/My Drive/Univ Of Oulu/masters_thesis/preprocess_dataset/"
-                       "datasets/preparation_of_datasets/Amazon_Music/new_vader/"
+                       "datasets/Amazon_Music/"
                        "Amazon_Music_without_negs.csv", sep=",", header=0)
     train_data, eval_data = split_by_ratio(data, test_size=0.2)
 
@@ -122,7 +122,7 @@ if __name__ == "__main__":
 
     # region reviews' embeddings + Sentiment score from Vader
     data = pd.read_csv("G:/My Drive/Univ Of Oulu/masters_thesis/preprocess_dataset/"
-                       "datasets/preparation_of_datasets/Amazon_Music/new_vader/"
+                       "datasets/Amazon_Music/"
                        "Amazon_Music_without_negs.csv", sep=",", header=0)
     train_data, eval_data = split_by_ratio(data, test_size=0.2)
 
@@ -157,7 +157,7 @@ if __name__ == "__main__":
 
     # region reviews' embeddings + Negation occurrence
     data = pd.read_csv("G:/My Drive/Univ Of Oulu/masters_thesis/preprocess_dataset/"
-                       "datasets/preparation_of_datasets/Amazon_Music/new_vader/"
+                       "datasets/Amazon_Music/"
                        "Amazon_Music_without_negs.csv", sep=",", header=0)
     train_data, eval_data = split_by_ratio(data, test_size=0.2)
 

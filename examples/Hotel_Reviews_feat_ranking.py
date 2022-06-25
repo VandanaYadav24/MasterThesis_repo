@@ -32,7 +32,7 @@ if __name__ == "__main__":
     #region No reviews
     print("\n-------------------------------No reviews----------------------------------")
     data = pd.read_csv("G:/My Drive/Univ Of Oulu/masters_thesis/preprocess_dataset/"
-                       "datasets/preparation_of_datasets/hotel/new_vader/hotel_bert_emb_pca16_senti.csv",
+                       "datasets/preparation_of_datasets/Datafiniti_Hotel_Reviews/new_vader/hotel_bert_emb_pca16_senti.csv",
                        sep=",", header=0)
     train_data, eval_data = split_by_ratio(data, test_size=0.2)
 
@@ -65,7 +65,7 @@ if __name__ == "__main__":
     # region Only reviews' embeddings
     print("\n-------------------------------Only reviews' embeddings----------------------------------")
     data = pd.read_csv("G:/My Drive/Univ Of Oulu/masters_thesis/preprocess_dataset/"
-                       "datasets/preparation_of_datasets/hotel/new_vader/hotel_bert_emb_pca16_senti.csv",
+                       "datasets/Datafiniti_Hotel_Reviews/hotel_bert_emb_pca16_senti.csv",
                        sep=",", header=0)
     train_data, eval_data = split_by_ratio(data, test_size=0.2)
 
@@ -109,7 +109,7 @@ if __name__ == "__main__":
     # region Only Sentiment score from Vader
     print("\n-------------------------------Only Sentiment score from Vader----------------------------------")
     data = pd.read_csv("G:/My Drive/Univ Of Oulu/masters_thesis/preprocess_dataset/"
-                       "datasets/preparation_of_datasets/hotel/new_vader/hotel_bert_emb_pca16_senti.csv",
+                       "datasets/Datafiniti_Hotel_Reviews/bert_emb_pca16_senti.csv",
                        sep=",", header=0)
     train_data, eval_data = split_by_ratio(data, test_size=0.2)
 
@@ -148,7 +148,7 @@ if __name__ == "__main__":
     # region reviews' embeddings + Sentiment score from Vader
     print("\n-------------------------reviews' embeddings + Sentiment score from Vader----------------------------")
     data = pd.read_csv("G:/My Drive/Univ Of Oulu/masters_thesis/preprocess_dataset/"
-                       "datasets/preparation_of_datasets/hotel/new_vader/hotel_bert_emb_pca16_senti.csv",
+                       "datasets/Datafiniti_Hotel_Reviews/bert_emb_pca16_senti.csv",
                        sep=",", header=0)
     train_data, eval_data = split_by_ratio(data, test_size=0.2)
 
@@ -193,7 +193,7 @@ if __name__ == "__main__":
     # region reviews' embeddings + Sentiment score from vader + Negation occurrence
     print("\n----------------------reviews' embeddings + Negation occurrence----------------------------")
     data = pd.read_csv("G:/My Drive/Univ Of Oulu/masters_thesis/preprocess_dataset/"
-                       "datasets/preparation_of_datasets/hotel/new_vader/hotel_bert_emb_pca16_senti.csv",
+                       "datasets/Datafiniti_Hotel_Reviews/bert_emb_pca16_senti.csv",
                        sep=",", header=0)
     train_data, eval_data = split_by_ratio(data, test_size=0.2)
 
@@ -237,7 +237,7 @@ if __name__ == "__main__":
     # region reviews' embeddings + Negation occurrence
     print("\n----------------------reviews' embeddings + Negation occurrence----------------------------")
     data = pd.read_csv("G:/My Drive/Univ Of Oulu/masters_thesis/preprocess_dataset/"
-                       "datasets/preparation_of_datasets/hotel/new_vader/hotel_bert_emb_pca16_senti.csv",
+                       "datasets/Datafiniti_Hotel_Reviews/bert_emb_pca16_senti.csv",
                        sep=",", header=0)
     train_data, eval_data = split_by_ratio(data, test_size=0.2)
 

@@ -34,7 +34,7 @@ if __name__ == "__main__":
     print("\n")
     print("-------------------------------No reviews-------------------------------------")
     data = pd.read_csv("G:/My Drive/Univ Of Oulu/masters_thesis/preprocess_dataset/"
-                       "datasets/preparation_of_datasets/Amazon_Music/new_vader/bert_emb_pca13_senti.csv",
+                       "datasets/Amazon_Digital_Music/bert_emb_pca13_senti.csv",
                        sep=",", header=0)
     train_data, eval_data = split_by_ratio(data, test_size=0.2)
 
@@ -72,7 +72,7 @@ if __name__ == "__main__":
     # region Only reviews' embeddings
     print("\n---------------------Only reviews' embeddings-----------------------------------")
     data = pd.read_csv("G:/My Drive/Univ Of Oulu/masters_thesis/preprocess_dataset/"
-                       "datasets/preparation_of_datasets/Amazon_Music/new_vader/bert_emb_pca13_senti.csv",
+                       "datasets/Amazon_Digital_Music/bert_emb_pca13_senti.csv",
                        sep=",", header=0)
     train_data, eval_data = split_by_ratio(data, test_size=0.2)
 
@@ -114,7 +114,7 @@ if __name__ == "__main__":
     # region Only Sentiment score from Vader
     print("\n----------------------Only Sentiment score from Vader-------------------------")
     data = pd.read_csv("G:/My Drive/Univ Of Oulu/masters_thesis/preprocess_dataset/"
-                       "datasets/preparation_of_datasets/Amazon_Music/new_vader/bert_emb_pca13_senti.csv",
+                       "datasets/Amazon_Digital_Music/bert_emb_pca13_senti.csv",
                        sep=",", header=0)
     train_data, eval_data = split_by_ratio(data, test_size=0.2)
 
@@ -155,7 +155,7 @@ if __name__ == "__main__":
     # region reviews' embeddings + Sentiment score from Vader
     print("\n---------------------Reviews' embeddings + Sentiment score from Vader--------------------")
     data = pd.read_csv("G:/My Drive/Univ Of Oulu/masters_thesis/preprocess_dataset/"
-                       "datasets/preparation_of_datasets/Amazon_Music/new_vader/bert_emb_pca13_senti.csv",
+                       "datasets/Amazon_Digital_Music/bert_emb_pca13_senti.csv",
                        sep=",", header=0)
     train_data, eval_data = split_by_ratio(data, test_size=0.2)
 
@@ -200,7 +200,7 @@ if __name__ == "__main__":
     # region Reviews  + Sentiment score from Vader + Negation occurrence
     print("\n----------------------reviews' embeddings + Negation occurrence----------------------------")
     data = pd.read_csv("G:/My Drive/Univ Of Oulu/masters_thesis/preprocess_dataset/"
-                       "datasets/preparation_of_datasets/Amazon_Music/new_vader/bert_emb_pca13_senti.csv",
+                       "datasets/Amazon_Digital_Music/bert_emb_pca13_senti.csv",
                        sep=",", header=0)
     train_data, eval_data = split_by_ratio(data, test_size=0.2)
 
@@ -245,7 +245,7 @@ if __name__ == "__main__":
     # region reviews' embeddings + Negation occurrence
     print("\n---------------------Reviews' embeddings + Negation occurrence------------------------")
     data = pd.read_csv("G:/My Drive/Univ Of Oulu/masters_thesis/preprocess_dataset/"
-                       "datasets/preparation_of_datasets/Amazon_Music/new_vader/bert_emb_pca13_senti.csv",
+                       "datasets/Amazon_Digital_Music/bert_emb_pca13_senti.csv",
                        sep=",", header=0)
     train_data, eval_data = split_by_ratio(data, test_size=0.2)
 
@@ -286,63 +286,6 @@ if __name__ == "__main__":
         for key, val in sorted(result_with_reviews_negs.items()):
             w.writerow(mergedict({'k': key}, val))
     # endregion
-
-
-    # # region Plot all metrics in subplots
-    # metrics = ["precision", "recall", "map", "ndcg"]
-    # for i in range(len(metrics)):
-    #     x = []
-    #     y = []
-    #     x_reviews = []
-    #     y_reviews = []
-    #     x_only_senti = []
-    #     y_only_senti = []
-    #     x_reviews_senti_score = []
-    #     y_reviews_senti_score = []
-    #     x_reviews_negs = []
-    #     y_reviews_negs = []
-    #     # x_only_negs = []
-    #     # y_only_negs = []
-    #     x_reviews_negs_senti = []
-    #     y_reviews_negs_senti = []
-    #     for f, v in result_without_reviews.items():
-    #         x.append(f)
-    #         y.append(v[metrics[i]])
-    #     for f, v in result_reviews.items():
-    #         x_reviews.append(f)
-    #         y_reviews.append(v[metrics[i]])
-    #     for f, v in result_with_only_senti.items():
-    #         x_only_senti.append(f)
-    #         y_only_senti.append(v[metrics[i]])
-    #     for f, v in result_with_reviews_senti.items():
-    #         x_reviews_senti_score.append(f)
-    #         y_reviews_senti_score.append(v[metrics[i]])
-    #     for f, v in result_with_reviews_negs.items():
-    #         x_reviews_negs.append(f)
-    #         y_reviews_negs.append(v[metrics[i]])
-    #     # for f, v in result_negs.items():
-    #     #     x_only_negs.append(f)
-    #     #     y_only_negs.append(v[metrics[i]])
-    #     for f, v in result_with_reviews_negs_senti.items():
-    #         x_reviews_negs_senti.append(f)
-    #         y_reviews_negs_senti.append(v[metrics[i]])
-    #     plt.figure(figsize=(5, 16))
-    #     plt.subplot(4, 1, i + 1)
-    #     plt.plot(x, y, 'g', label='no reviews', marker='s')
-    #     plt.plot(x_reviews, y_reviews, 'r', label='with reviews', marker='s')
-    #     plt.plot(x_only_senti, y_only_senti, '--b', label='vader sentiment score', marker='s')
-    #     plt.plot(x_reviews_senti_score, y_reviews_senti_score, '--y', label='reviews+vader sentiment', marker='s')
-    #     plt.plot(x_reviews_negs, y_reviews_negs, '--c', label='reviews+negation occurrence', marker='s')
-    #     # plt.plot(x_only_negs, y_only_negs, 'tab:orange', label='reviews+negation occurrence', marker='s')
-    #     plt.plot(x_reviews_negs_senti, y_reviews_negs_senti, '--m', label='reviews+negation occurrence', marker='s')
-    #     plt.xlabel('recommendation list (N)', fontsize=6)
-    #     plt.ylabel('{}@N'.format(metrics[i]), fontsize=6)
-    #     plt.grid()
-    #     plt.xticks(x, fontsize=8.5)
-    #     plt.yticks(rotation=60, fontsize=8.5)
-    #     # plt.legend(loc=0)
-    #     plt.savefig('{}@N.png'.format(metrics[i]), dpi=800)
-    # # endregion
 
     fig, axes = plt.subplots(2, 2, figsize=(18, 10))
 
