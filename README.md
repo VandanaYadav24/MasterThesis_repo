@@ -24,10 +24,10 @@ URL: http://jmcauley.ucsd.edu/data/amazon/index_2014.html/
 Sample data of Digital Music: 
 |**user id** | **item id**|**label**|**reviews**|
 |:------------: |:------------:|:-------:|:-------------------:|
-|80|14|2|The worst experience in my life please never go close to tis hotel ughhhhh nasty rooms smells bad|
-|31|9|5|It was a great stay |
-|65|38|5|Good: Impeccable service. Beautiful hotel. Don't hesitate to stay here!|
-|29|617|2|Part of hotel was under renovation, it was also noisy. Not a good bargain.|
+|47|3|5|I loved the Cars, soooo oringinal.the more time passes, the better they are.And this is the set of songs that launched the legendary band.|
+|590|284|1|Yet another classic that only became popular because their audience was stoned. Blaring, muddy, unmusical crud. |
+|1451|338|1|I cant find one good song on the whole thing, just ignore this record because it's wack.get me against the world though.|
+|1397|167|2|This album has plenty of great songs.  It's one of those albums that is great when you first hear it, but after a while, it gets pretty old.|
 
 Sample data of Video Games: 
 |**user id** | **item id**|**label**|**reviews**|
