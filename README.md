@@ -3,9 +3,9 @@
 ## Overview
 Proposed a hybrid recommendation algorithm  called DeepFM based on two types of tasks of recommendation system (1. predicting desired ratings, and 2. providing recommendations based on rank scores) using information extracted from textual product reviews such as sentence embedding vectors, sentiment scores and presence of negations in the reviews.
 
-#### Datasets used: 
+### Datasets used: 
 
-##### Datafiniti Hotel Reviews: <br />
+#### Datafiniti Hotel Reviews: <br />
 Description: Hotel Reviews dataset from Datafinti's Business dataset. <br />
 URL: https://data.world/datafiniti/hotel-reviews <br/>
 
@@ -17,7 +17,7 @@ Sample data:
 |65|38|5|Good: Impeccable service. Beautiful hotel. Don't hesitate to stay here!|
 |29|617|2|Part of hotel was under renovation, it was also noisy. Not a good bargain.|
 
-##### Amazon Digital Music and Video Games: <br />
+#### Amazon Digital Music and Video Games: <br />
 Description: From Amazon product reviews dataset. <br />
 URL: http://jmcauley.ucsd.edu/data/amazon/index_2014.html/
 
