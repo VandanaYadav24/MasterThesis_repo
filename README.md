@@ -41,7 +41,7 @@ Sample data of Video Games:
 
 Step 1: Data cleaning and pre-processing. <br/>
 Step 2: Extract features from product reviews <br/>
-        Step 2.1: Extract contextual embedding of the product reviews using BERT. <br/>
+       &nbsp Step 2.1: Extract contextual embedding of the product reviews using BERT. <br/>
         Step 2.2: EXtract average sentiment scores of the product reviews using VADER. <br/>
         Step 2.3: Extract negations in the reviews using VADER. <br/>
 Step 3: Split data into train (80 % of whole dataset) and test (20 % of whole dataset) set. <br/>
@@ -61,10 +61,8 @@ Step 6: Evaluate the model on test set using metrics according to prediction tas
 |P2|Contextual embedding vectors.|
 |P3|Sentiment scores of the reviews.|
 |P4|Contextual embedding vectors & Sentiment scores of the reviews.|
-|P5|Contextual embedding vectors, Sentiment scores
-& presence/absence of negation in product reviews|
-|P6|Contextual embedding vectors
-& presence/absence of negation in product reviews|
+|P5|Contextual embedding vectors, Sentiment scores and presence/absence of negation in product reviews.|
+|P6|Contextual embedding vectors and presence/absence of negation in product reviews.|
 
 
 ### Metrics used:
