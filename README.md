@@ -36,6 +36,42 @@ Sample data of Video Games:
 |72|7|3|Great protection and grip for a while, but like a latex glove, it stretches out after a little time.  For the price, a great deal.|
 
 
+Algorithm: 
+
+Step 1: Data cleaning and pre-processing. <br/>
+Step 2: Extract features from product reviews <br/>
+        Step 2.1: Extract contextual embedding of the product reviews using BERT. <br/>
+        Step 2.2: EXtract average sentiment scores of the product reviews using VADER. <br/>
+        Step 2.3: Extract negations in the reviews using VADER. <br/>
+Step 3: Split data into train (80 % of whole dataset) and test (20 % of whole dataset) set. <br/>
+Step 4: Aggregate features according to predictor combination. <br/>
+Step 5: Modeling based on prediction task. <br/>
+Step 6: Evaluate the model on test set using metrics according to prediction task. 
+
+
+Prediction tasks: <br/>
+1. Predicting desired ratings. (rating prediction task) <br/>
+2. Providing recommendations based on predicted rank scores. (ranking preiction task) <br/>
+
+Predictor combinations used along with ratings:
+Sample data of Video Games: 
+|**Predictor conbination name** | **aggregated features**|
+|:------------: |:----------------------:|
+|P1|no additional feature used.|
+|P2|Contextual embedding vectors.|
+|P3|Sentiment scores of the reviews.|
+|P4|Contextual embedding vectors & Sentiment scores of the reviews.|
+|P5|Contextual embedding vectors, Sentiment scores
+& presence/absence of negation in product reviews|
+|P6|Contextual embedding vectors
+& presence/absence of negation in product reviews|
+
+
+Metrics used:
+|**Prediction task** | **Metrics used for the task**|
+|:------------: |:----------------------:|
+|Rating|RMSE and MAE
+|Ranking|precision@N, Recall@N, MAP@N, NDCG@N|
 
 
 
