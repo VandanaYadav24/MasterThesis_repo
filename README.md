@@ -15,15 +15,10 @@ URL: http://jmcauley.ucsd.edu/data/amazon/index_2014.html/
 
 
 |**user id** | **item id**|**label**|**reviews**|**sentiment score**|**no. of negations** | **negation label**|
-|:------: |:-------:|:--------------:|:-------------:|:-----------------: |:--------:|
+|:------: |:-------:|:-------:|:-------------------:|:-------:|:------: |:-------:|
 |80|14|2|Staff weren't helpful and no one tried to come and clean our room on several nights. Rooms were very small. Good location|0.2496|2|1|
-|username|String|vandanayadav|Username|Nullable: No, Unique: Yes, Default: No|PRIMARY_KEY| 
-|pwd|String|NguyenYadav@123|Password|Nullable: No, Unique: No, Default: No|| 
-|fname|String|Vandana|First name|Nullable: Yes, Unique: No, Default: No|| 
-|lname|String|Nguyen|Last name|Nullable: Yes, Unique: No, Default: No|| 
-|phone|String|+3584441257|Phone number|Nullable: Yes, Unique: No, Default: No|| 
-|addr|String|Yliopistokatu 20|Address|Nullable: Yes, Unique: No, Default: No||
-|email|String|van.nguyen@gmail.com|Email address|Nullable: No, Unique: Yes, Default: No|| 
+|80|14|2|Staff weren't helpful and no one tried to come and clean our room on several nights. Rooms were very small. Good location|0.2496|2|1|
+
 
 
 
