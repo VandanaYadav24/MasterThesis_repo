@@ -49,6 +49,8 @@ Step 4: Aggregate features according to predictor combination. <br/>
 Step 5: Modeling based on prediction task. <br/>
 Step 6: Evaluate the model on test set using metrics according to prediction task. 
 
+These steps are followed for all datasets used here.
+
 
 ### Prediction tasks: <br/>
 1. Predicting desired ratings. (rating prediction task) <br/>
@@ -71,11 +73,6 @@ Step 6: Evaluate the model on test set using metrics according to prediction tas
 |Rating|RMSE and MAE
 |Ranking|precision@N, Recall@N, MAP@N, NDCG@N|
 
-
-#### Methods/models used: <br />
-BERT: To extract contextual sentence embedding of the product reviews. <br />
-VADER: To extract sentiment scores and negations of the product reviews. <br />
-DeepFM: Used as a recommendation algorithm. <br />
 
 
 
