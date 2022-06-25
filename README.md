@@ -15,7 +15,7 @@ URL: http://jmcauley.ucsd.edu/data/amazon/index_2014.html/
 
 
 |**user id** | **item id**|**label**|**reviews**|**sentiment score**|**no. of negations** | **negation label**|
-|:------: |:-------:|:-------:|:-------------------:|:-------:|:------: |:-------:|
+|:----------: |:----------:|:-------:|:-------------------:|:-------:|:------: |:-------:|
 |80|14|2|Staff weren't helpful and no one tried to come and clean our room on several nights. Rooms were very small. Good location|0.2496|2|1|
 |80|14|2|Staff weren't helpful and no one tried to come and clean our room on several nights. Rooms were very small. Good location|0.2496|2|1|
 
