@@ -56,7 +56,7 @@ These steps are followed for all datasets used here.
 1. Predicting desired ratings. (rating prediction task) <br/>
 2. Providing recommendations based on predicted rank scores. (ranking preiction task) <br/>
 
-### Predictor combinations used along with ratings: 
+### Predictor combinations used as additional piece of information along with ratings: 
 |**Predictor conbination name** | **aggregated features**|
 |:------------: |:----------------------:|
 |P1|no additional feature used.|
