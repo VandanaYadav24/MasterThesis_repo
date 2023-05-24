@@ -42,7 +42,7 @@ Sample data of Video Games:
 Step 1: Data cleaning and pre-processing. <br/>
 Step 2: Extract features from product reviews <br/>
 &emsp; &emsp; Step 2.1: Extract contextual embedding of the product reviews using BERT. <br/>
-&emsp; &emsp; Step 2.2: EXtract average sentiment scores of the product reviews using VADER. <br/>
+&emsp; &emsp; Step 2.2: Extract average sentiment scores of the product reviews using VADER. <br/>
 &emsp; &emsp; Step 2.3: Extract negations in the reviews using VADER. <br/>
 Step 3: Split data into train (80 % of whole dataset) and test (20 % of whole dataset) set. <br/>
 Step 4: Aggregate features according to the selected predictor combination. <br/>
